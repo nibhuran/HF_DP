@@ -1,6 +1,7 @@
 package com.java.Test;// Java Program to print any View of Binary Tree
 
 import java.util.*;
+import java.util.LinkedList;
 import java.util.Map.Entry;
 
 enum Mode {
@@ -322,7 +323,7 @@ class Tree {
         Map<Integer, Integer> map = new TreeMap<Integer, Integer>();
 
         // Queue to store tree nodes in level order traversal
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        Queue<TreeNode> queue = new LinkedList<>();
 
         // Assign initialized horizontal distance value to root
         // node and add it to the queue.
