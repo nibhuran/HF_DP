@@ -6,13 +6,13 @@ package com.java.Test;
  */
 public class ATest {
 
-//    @org.junit.Test
+//    @org.junit.Prateek_Interval
 //    public void testAdd() throws Exception {
 //        A a = new A();
 //        assertEquals(3,a.add(1,2));
 //    }
 //
-//    @org.junit.Test
+//    @org.junit.Prateek_Interval
 //    public void testSubtract() throws Exception {
 //        A a = new A();
 //        assertEquals(3,a.subtract(5,2));

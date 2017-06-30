@@ -1,6 +1,7 @@
 package com.java.Phase2.wisen;
 
 import java.util.Scanner;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class HalfAreaPoint {
     public double findHalfAreaPoint(Curve curve, double p) {
@@ -12,6 +13,9 @@ public class HalfAreaPoint {
     public double binarySearch(Curve c, double l, double r, double value){
         if (r >= l){
             double mid = l + (r - l)/2;
+            AtomicInteger name = new AtomicInteger(2);
+            name.addAndGet(2);
+            System.out.println(name);
 
             if(inRange(value/2, c.areaUnderCurve(mid))) return mid;
 
